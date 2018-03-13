@@ -17,9 +17,9 @@ Our [**Tutorials**](https://hyperledger.github.io/composer/tutorials/tutorials.h
 | [**Business Network Cards**](#bizcards) | [**Client APIs Usage**](#clientapis) | [**Cloud/Kubernetes envs**](#varcloud) | [**Composer Install Issues**](#installissues) |  [**Data Migration**](#migration) 
  [**Debugging**](#debug) | [**Endorsement Policy**](#endorse) | [**Events**](#events) | [**Event Hub Problems**](#eventhub) | [**Filters**](#filters)  
 |  [**Identity Issues**](#identity) | [**Historian**](#historian) | [**Modeling**](#model) | [**Miscellaneous Items**](#misccomposer) | [**Multi Org Setup/BYFN**](#multiorg)
-| [**Node / NVM Issues**](#node-issues) | [**Passport Strategies**](#passport-strategy) | [**Queries**](#queries)  | [**REST APIs**](#restapis)  | [**REST Authentication**](#restauth) 
-| [**Runtime Install Errors**](#runtime-install)| [**Sample Networks**](#samples) | [**Scripting Tips**](#scripting) |[**Transaction Processors**](#transproc) | [**Upgrading Composer Runtime**](#upgrade) 
-| [**Updating Biz Networks**](#upgradebn) | [**empty**](#samples)  | [**empty**](#samples) | [**empty**](#samples) | [**empty**](#samples)  
+| [**Node / NVM Issues**](#node-issues) | [**Passport Strategies**](#passport-strategy) | [**Production Questions**](#production) | [**Queries**](#queries)  | [**REST APIs**](#restapis)  
+| [**REST Authentication**](#restauth) | [**Runtime Install Errors**](#runtime-install)| [**Sample Networks**](#samples) | [**Scripting Tips**](#scripting) |[**Transaction Processors**](#transproc) 
+| [**Upgrading Composer Runtime**](#upgrade) | [**Updating Biz Networks**](#upgradebn) | [**empty**](#samples)  | [**empty**](#samples) | [**empty**](#samples)
 
 
 Have Fabric Related issues? (ie when used with Composer Dev Env Setup or Tutorials)
@@ -587,6 +587,22 @@ The following are a selection of answers, to help understand what you may be enc
 | Passport-jwt info | See here https://github.com/hyperledger/composer/issues/2038 in particular comments here -> https://github.com/hyperledger/composer/issues/2038#issuecomment-340540726 and also Rocketchat thread [here](chat.hyperledger.org/channel/composer?msg=etkJ7wzdbdFnSXW79)
 | Custom Passport strategy |  Useful Rocketchat thread (as-is) [here](chat.hyperledger.org/channel/composer?msg=KW4DbESMZKkPRWmPQ)
   and Rocketchat thread here for more info -> chat.hyperledger.org/channel/composer?msg=etkJ7wzdbdFnSXW79
+
+
+#### :card_index: [back to base camp :camping: ](#top)  
+
+
+
+<a name="production"></a>
+
+### :information_source:  Production-Related Questions
+
+The following are a selection of answers, to help understand what you may be encountering:
+
+| Message encountered | Resolution 
+| :---------------------- | :-----------------------
+|Is it safe to use Composer in Production? | Hyperledger Composer is currently in pre-release with new releases most weeks and often with breaking changes - this means that at this time most people would find this too risky for production. Looking forward, a production version of Composer requires Hyperledger Fabric 1.1 - there is currently a release candidate for this so I would think we are not too far away from a Fabric 1.1 release. I'm not aware of any published date for a 1.0 production release of Composer. This post form the Mailing List for Composer explains the production issue: https://lists.hyperledger.org/pipermail/hyperledger-composer/2017-November/000044.html
+Also keep an eye on the regular releases for latest information: https://github.com/hyperledger/composer/releases and Issues: https://github.com/hyperledger/composer/issues - and finally the main Hyperledger site: https://www.hyperledger.org/
 
 
 #### :card_index: [back to base camp :camping: ](#top)  
